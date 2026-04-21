@@ -2,51 +2,59 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Ae Beyond - Base de connaissance</title>
+<title>Ae'Beyond - Base de connaissance</title>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f7f3ea;
-    color: #2b2b2b;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f6f1e7; /* crème chaud */
+    color: #2f2a26;
 }
 
+/* HEADER */
 header {
-    background: #fffaf0;
+    background: #fff7ec;
     text-align: center;
-    padding: 35px;
-    border-bottom: 1px solid #e6e0d4;
+    padding: 40px;
+    border-bottom: 1px solid #e8dccb;
 }
 
 header h1 {
     margin: 0;
-    color: #b08a3c;
-    font-size: 38px;
+    font-family: 'Playfair Display', serif;
+    color: #7a5c3e;
+    font-size: 42px;
+    letter-spacing: 1px;
 }
 
 header p {
-    color: #666;
+    color: #6e665f;
 }
 
+/* NAV */
 nav {
-    background: #fffdf7;
+    background: #fffaf3;
     text-align: center;
     padding: 12px;
-    border-bottom: 1px solid #e6e0d4;
+    border-bottom: 1px solid #e8dccb;
 }
 
 nav a {
-    color: #555;
+    color: #5c524b;
     margin: 10px;
     text-decoration: none;
     font-size: 14px;
+    transition: 0.2s;
 }
 
 nav a:hover {
-    color: #b08a3c;
+    color: #a07a4a;
 }
 
+/* SECTIONS */
 section {
     max-width: 950px;
     margin: auto;
@@ -54,31 +62,47 @@ section {
 }
 
 h2 {
-    color: #b08a3c;
-    border-bottom: 1px solid #e6e0d4;
+    font-family: 'Playfair Display', serif;
+    color: #7a5c3e;
+    border-bottom: 1px solid #e8dccb;
     padding-bottom: 6px;
 }
 
+/* CARDS */
 .card {
-    background: #fffdf7;
-    padding: 15px;
-    margin: 12px 0;
-    border-radius: 10px;
-    border: 1px solid #eee6d6;
+    background: #fffaf3;
+    padding: 16px;
+    margin: 14px 0;
+    border-radius: 14px;
+    border: 1px solid #eadfce;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+    transition: 0.2s ease;
 }
 
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+/* TEXT */
 ul {
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 a {
-    color: #7a5c1b;
+    color: #8b6b3f;
 }
 
+a:hover {
+    color: #a07a4a;
+}
+
+/* IMAGES */
 img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-top: 10px;
+    border: 1px solid #eadfce;
 }
 </style>
 
